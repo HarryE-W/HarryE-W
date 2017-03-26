@@ -34,8 +34,8 @@ body {
 
 #flex-item {
   margin: auto;
-  height:calc(3vw + 40px);
-  width:calc(15vw + 200px);
+  height:calc(4vw + 50px);
+  width:calc(20vw + 250px);
   border-color: #ebebeb;
   border-style: solid;
   border-width: calc(0.15vw + 1.5px);
@@ -49,15 +49,15 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-  font-size: calc((1vw * 1.5) + ((40px * 1.5) / 3));
+  font-size: calc(1.5vw + ((50px * 3) / 8));
   color: #ebebeb;
 }
 
 .typed-cursor{
     opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+    -webkit-animation: blink 0.9s infinite;
+    -moz-animation: blink 0.9s infinite;
+    animation: blink 0.9s infinite;
 }
 @keyframes blink{
     0% { opacity:1; }
