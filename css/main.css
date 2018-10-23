@@ -3,9 +3,9 @@ html {
 }
 
 body {
-  background-color: black;
-  background: -webkit-linear-gradient(90deg,#030303 10%,#1f1f1f 90%);
-  background: linear-gradient(90deg,#030303 10%,#1f1f1f 90%); 
+  background-color: #F8F8F8;
+  background: -webkit-linear-gradient(90deg,#FAFAFA 10%,#F8F8F8 90%);
+  background: linear-gradient(90deg,#FAFAFA 10%,#F8F8F8 90%);
   height: 100%;
 }
 
@@ -36,10 +36,10 @@ body {
   margin: auto;
   height:calc(4vw + 50px);
   width:calc(20vw + 250px);
-  border-color: #ebebeb;
+  border-color: #333333;
   border-style: solid;
   border-width: calc(0.15vw + 1.5px);
-  
+
 }
 
 #content {
@@ -50,7 +50,7 @@ body {
   transform: translate(-50%, -50%);
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-size: calc(1.5vw + ((50px * 3) / 8));
-  color: #ebebeb;
+  color: #333333;
 }
 
 .typed-cursor{
