@@ -14,11 +14,17 @@
 <script type="text/javascript">
 	$(function(){
         $(".element").typed({
-            strings: ["Harry Ellison-Wright^1000", "^1000Click to enter."],
+            strings: ["Harry Ellison-Wright^1000", "^1000Digging into data.^1500"],
 						showCursor: true,
             typeSpeed: 50,
+						callback: function(){
+        			shift();
+      			}
         });
-    });
+	});
+				function shift(){
+					window.location.href = "./taxation2.html"
+				  }
 </script>
 
 </head>
