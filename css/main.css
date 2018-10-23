@@ -74,6 +74,7 @@ body {
   border-color: #707070;
   border-style: solid;
   border-width: calc(0.15vw + 1.5px);
+  position: absolute;
   display: none;
 
 }
