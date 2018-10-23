@@ -17,26 +17,9 @@
 			strings: ["Harry Ellison-Wright^500", "^1000Digging into data.^500"],
 			showCursor: false,
 			typeSpeed: 50,
-			backSpeed: 30,
-			onComplete: function(self) {
-				typed.showCursor = false,
-				shift();
-			}
+			backSpeed: 30
 		})
 	});
-
-	function shift() {
-		var width = "+=" + $(document).width();
-		var dist = $(window).height() / 2;
-		var div = document.getElementById("flex-container2");
-		$("#flex-container").animate({
-			bottom: dist
-		}, 500, function() {
-			// Animation complete.
-			$( "#flex-item2" ).fadeIn( "slow" );
-			$( "#content2" ).fadeIn( "slow" );
-		});
-	}
 </script>
 
 </head>
@@ -50,8 +33,5 @@
       </div>
 		</a>
     </div>
-		<div id="flex-container2">
-			<div id="flex-item2"><div id="content2"></div></div>
-		</div>
 </body>
 </html>

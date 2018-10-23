@@ -30,31 +30,6 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    padding-bottom: calc(2vw);
-    z-index: 2;
-}
-
-#flex-container2 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -moz-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     z-index: 1;
 }
 
@@ -67,17 +42,6 @@ body {
   border-width: calc(0.15vw + 1.5px);
 }
 
-#flex-item2 {
-  margin: auto;
-  height:calc(8vw + 175px);
-  width:calc(8vw + 175px);
-  border-color: #707070;
-  border-style: solid;
-  border-width: calc(0.15vw + 1.5px);
-  position: absolute;
-  display: none;
-
-}
 #content {
   position: relative;
   float: left;
@@ -88,18 +52,6 @@ body {
   font-size: calc(1.5vw + ((50px * 3) / 8));
   color: #333333;
   font-family: "Oswald", Arial, serif; font-weight: 400;
-}
-#content2 {
-  position: relative;
-  float: left;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-  font-size: calc(1.5vw + ((50px * 3) / 8));
-  color: #333333;
-  font-family: "Oswald", Arial, serif; font-weight: 400;
-  display: none;
 }
 
 .typed-cursor{
